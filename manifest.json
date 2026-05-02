@@ -1,0 +1,16 @@
+{
+  "name": "화성학 퀴즈",
+  "short_name": "화성학",
+  "description": "간격반복 기반 화성학·악보·코드 학습",
+  "start_url": "/music-quiz-web/",
+  "scope": "/music-quiz-web/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#6366F1",
+  "background_color": "#6366F1",
+  "lang": "ko",
+  "icons": [
+    { "src": "pwa-icon.png", "sizes": "1024x1024", "type": "image/png", "purpose": "any" },
+    { "src": "pwa-icon.png", "sizes": "1024x1024", "type": "image/png", "purpose": "maskable" }
+  ]
+}
