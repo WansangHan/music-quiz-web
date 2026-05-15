@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>화성학 퀴즈</title>
+<script>
+  // GitHub Pages SPA fallback: deep-link 새로고침 시 client-side 라우터에 위임
+  var base = '/music-quiz-web/';
+  if (location.pathname.indexOf(base) !== 0) {
+    location.replace(base);
+  } else {
+    location.replace(base + location.search + location.hash);
+  }
+</script>
+</head>
+<body></body>
+</html>
